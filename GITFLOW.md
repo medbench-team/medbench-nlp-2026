@@ -13,3 +13,5 @@
   - Далее он преобразуется в issue
   - Заходим issue через проект репозитория
   - Справа, в меню блок - Development выбираем "Create branch". (по gitflow ветки вы создаёте из dev)
+
+<img width="980" height="480" alt="Снимок экрана — 2026-11-07 в 17 55 42" src="https://github.com/user-attachments/assets/cc7134a1-7934-4671-815b-4d7d4a335290" />
