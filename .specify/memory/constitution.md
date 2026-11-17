@@ -1,50 +1,86 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# MedBench NLP 2026 Constitution
+
+Проект курса NLP (ITMO AI Talent Hub, осень 2026): получить SotA на русскоязычном медицинском
+бенчмарке RuMedBench и честно сравнить результаты с опубликованными работами (previous art).
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Честная оценка (NON-NEGOTIABLE)
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+- Выбор моделей, промптов, few-shot примеров и гиперпараметров MUST делаться только по dev.
+- Открытый test RuMedBench MUST запускаться один раз на финальную конфигурацию; каждый такой
+  прогон фиксируется в `results/` и не перезапускается ради лучшей цифры.
+- Метки test MUST NOT использоваться для подбора чего-либо, в том числе косвенно (анализ ошибок
+  на test — только после фиксации результата).
+- Перед использованием данных сайта medbench.ru для обучения MUST быть проверено пересечение
+  их текстов с открытым test (дедупликация), иначе возможна утечка.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+Обоснование: бонус за SotA засчитывается только при честном сравнении с previous art.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### II. Воспроизводимость
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+- Каждый прогон MUST задаваться YAML-конфигом в `configs/` и фиксированными сидами.
+- `results/<run_id>/meta.json` MUST содержать: модель и её версию/тег, дату, полный конфиг,
+  git-коммит, число токенов и долю невалидных ответов (для LLM).
+- Ответы LLM MUST кешироваться на диске (ключ — модель + промпт + параметры), чтобы повторный
+  прогон давал тот же результат без новых запросов.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### III. Сравнимость с previous art
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- Метрики (Accuracy, Hit@3, macro-F1) и Overall MUST считаться ровно как в статье RuMedBench
+  (Blinov et al., 2022, arXiv:2201.06499): при двух метриках задачи они сначала усредняются.
+- Все подходы (бейзлайны, LLM, энкодеры, ансамбли) MUST писать предсказания в единый формат
+  `preds.jsonl`, который читает общий модуль оценки.
+- Сводная таблица MUST показывать наши результаты рядом с опубликованными цифрами.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### IV. Решения визуализированы
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- У каждой спеки MUST быть холст в Klyaksa (проект «MedBench»), где нарисовано, как реализована
+  фича; ссылка или название холста MUST быть в `plan.md` спеки.
+- Каждое новое архитектурное или методологическое решение MUST добавляться стикером ADR-NNN
+  на холст «03 Decisions (ADR)»; отменённые решения помечаются, а не удаляются.
+
+Обоснование: участник команды должен понимать реализацию по схемам, не читая весь код.
+
+### V. Простота
+
+- Минимум зависимостей; новая зависимость MUST быть обоснована в `plan.md`.
+- Один общий харнесс (данные → задачи → подход → оценка) для всех подходов; без
+  преждевременных абстракций (YAGNI).
+
+### VI. Тесты
+
+- pytest MUST покрывать загрузчики данных, метрики и парсинг ответов LLM.
+- Тесты MUST NOT ходить в сеть; сетевые прогоны (Ollama Cloud, скачивание данных) выполняются
+  только через CLI.
+- Метрики проверяются на маленьких примерах с заранее посчитанным ответом.
+
+## Технические ограничения
+
+- Python 3.12, менеджер `uv`, src-layout (`src/medbench`), CLI на typer
+  (`uv run medbench <cmd>`).
+- LLM — Ollama Cloud (`https://ollama.com`) через `langchain-ollama`; оркестрация — LangGraph.
+- Актуальную документацию библиотек MUST сверять через context7 перед использованием их API.
+- Секреты только в `.env` (MUST NOT коммититься и попадать в логи). `data/` и `context/`
+  не коммитятся.
+- На сервере нет GPU: дообучение энкодеров и LoRA — на Colab/Kaggle, в репозиторий попадают
+  ноутбуки/скрипты и `preds.jsonl`.
+
+## Процесс разработки
+
+- Работа ведётся только через GitHub Spec Kit: `/speckit-specify` → `/speckit-plan` →
+  `/speckit-tasks` → `/speckit-implement`.
+- Одна спека = одна ветка от `dev` = один PR в `dev` (GITFLOW.md); `dev` → `main` с тегом версии.
+- Дорожная карта спек — `docs/ROADMAP.md`.
+- Документы и общение — на русском; код, идентификаторы и коммиты — на английском.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+- Конституция имеет приоритет над остальными практиками проекта.
+- Изменения вносятся через PR с обновлением версии по semver: MAJOR — удаление или
+  переопределение принципа, MINOR — новый принцип или раздел, PATCH — уточнения формулировок.
+- Каждый PR и каждый `plan.md` (Constitution Check) MUST проверять соответствие принципам;
+  отступление допускается только с письменным обоснованием в `plan.md`.
+- Рабочие инструкции для агентов — `CLAUDE.md`.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-11-17 | **Last Amended**: 2026-11-17
