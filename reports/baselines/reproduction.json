@@ -1,0 +1,185 @@
+{
+  "lines": [
+    {
+      "approach": "naive",
+      "task": "RuMedTop3",
+      "metric": "acc",
+      "ours": 10.583941605839415,
+      "paper": 10.58,
+      "delta": 0.003941605839415274,
+      "status": "ok"
+    },
+    {
+      "approach": "naive",
+      "task": "RuMedTop3",
+      "metric": "hit3",
+      "ours": 22.019464720194648,
+      "paper": 22.02,
+      "delta": -0.0005352798053515073,
+      "status": "ok"
+    },
+    {
+      "approach": "naive",
+      "task": "RuMedSymptomRec",
+      "metric": "acc",
+      "ours": 1.927710843373494,
+      "paper": 1.93,
+      "delta": -0.0022891566265059726,
+      "status": "ok"
+    },
+    {
+      "approach": "naive",
+      "task": "RuMedSymptomRec",
+      "metric": "hit3",
+      "ours": 5.301204819277109,
+      "paper": 5.3,
+      "delta": 0.001204819277108804,
+      "status": "ok"
+    },
+    {
+      "approach": "naive",
+      "task": "RuMedDaNet",
+      "metric": "acc",
+      "ours": 50.0,
+      "paper": 50.0,
+      "delta": 0.0,
+      "status": "ok"
+    },
+    {
+      "approach": "naive",
+      "task": "RuMedNLI",
+      "metric": "acc",
+      "ours": 33.333333333333336,
+      "paper": 33.33,
+      "delta": 0.003333333333337407,
+      "status": "ok"
+    },
+    {
+      "approach": "naive",
+      "task": "RuMedNER",
+      "metric": "acc",
+      "ours": 94.30803571428571,
+      "paper": 93.66,
+      "delta": 0.6480357142857116,
+      "status": "explained"
+    },
+    {
+      "approach": "naive",
+      "task": "RuMedNER",
+      "metric": "f1",
+      "ours": 54.24292845257904,
+      "paper": 51.96,
+      "delta": 2.2829284525790356,
+      "status": "explained"
+    },
+    {
+      "approach": "linear",
+      "task": "RuMedTop3",
+      "metric": "acc",
+      "ours": 49.51338199513382,
+      "paper": 49.76,
+      "delta": -0.24661800486617835,
+      "status": "ok"
+    },
+    {
+      "approach": "linear",
+      "task": "RuMedTop3",
+      "metric": "hit3",
+      "ours": 71.89781021897811,
+      "paper": 72.75,
+      "delta": -0.8521897810218917,
+      "status": "ok"
+    },
+    {
+      "approach": "linear",
+      "task": "RuMedSymptomRec",
+      "metric": "acc",
+      "ours": 30.36144578313253,
+      "paper": 32.05,
+      "delta": -1.688554216867466,
+      "status": "out"
+    },
+    {
+      "approach": "linear",
+      "task": "RuMedSymptomRec",
+      "metric": "hit3",
+      "ours": 48.674698795180724,
+      "paper": 49.4,
+      "delta": -0.7253012048192744,
+      "status": "ok"
+    },
+    {
+      "approach": "linear",
+      "task": "RuMedDaNet",
+      "metric": "acc",
+      "ours": 51.953125,
+      "paper": 51.95,
+      "delta": 0.003124999999997158,
+      "status": "ok"
+    },
+    {
+      "approach": "linear",
+      "task": "RuMedNLI",
+      "metric": "acc",
+      "ours": 59.56399437412096,
+      "paper": 59.7,
+      "delta": -0.13600562587904363,
+      "status": "ok"
+    },
+    {
+      "approach": "linear",
+      "task": "RuMedNER",
+      "metric": "acc",
+      "ours": 94.27759740259741,
+      "paper": 94.4,
+      "delta": -0.12240259740259773,
+      "status": "ok"
+    },
+    {
+      "approach": "linear",
+      "task": "RuMedNER",
+      "metric": "f1",
+      "ours": 62.123893805309734,
+      "paper": 62.89,
+      "delta": -0.7661061946902663,
+      "status": "ok"
+    },
+    {
+      "approach": "linear",
+      "task": "Overall",
+      "metric": "-",
+      "ours": 57.98830667485743,
+      "paper": 58.46,
+      "delta": -0.47169332514257434,
+      "status": "ok"
+    }
+  ],
+  "overall": {
+    "naive": {
+      "ours": 35.50499528222161,
+      "paper": 35.21,
+      "delta": 0.2949952822216062
+    },
+    "linear": {
+      "ours": 57.98830667485743,
+      "paper": 58.46,
+      "delta": -0.47169332514257434
+    }
+  },
+  "runs": {
+    "naive": {
+      "RuMedTop3": "20261117-212401_naive_RuMedTop3_final_0f161807",
+      "RuMedSymptomRec": "20261117-212402_naive_RuMedSymptomRec_final_0f161807",
+      "RuMedDaNet": "20261117-212359_naive_RuMedDaNet_final_0f161807",
+      "RuMedNLI": "20261117-212359_naive_RuMedNLI_final_0f161807",
+      "RuMedNER": "20261117-212400_naive_RuMedNER_final_0f161807"
+    },
+    "linear": {
+      "RuMedTop3": "20261117-212834_linear_RuMedTop3_final_d8d9ccfb",
+      "RuMedSymptomRec": "20261117-213110_linear_RuMedSymptomRec_final_d8d9ccfb",
+      "RuMedDaNet": "20261117-212456_linear_RuMedDaNet_final_d8d9ccfb",
+      "RuMedNLI": "20261117-212442_linear_RuMedNLI_final_d8d9ccfb",
+      "RuMedNER": "20261117-212512_linear_RuMedNER_final_d8d9ccfb"
+    }
+  }
+}

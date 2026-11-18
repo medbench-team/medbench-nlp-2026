@@ -1,0 +1,34 @@
+[project]
+name = "medbench"
+version = "0.1.0"
+description = "Russian medical NLP: RuMedBench (RuMedNLI, RuMedDaNet, RuMedTest) — ITMO AITH NLP course project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-ollama>=1.1",
+    "langgraph>=1.2",
+    "matplotlib>=3.11.2",
+    "pydantic>=2.12",
+    "python-crfsuite>=0.9.12",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.9",
+    "typer>=0.21",
+]
+
+[project.scripts]
+medbench = "medbench.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.11.8,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "data: needs real RuMedBench data downloaded via `medbench data download` (skipped otherwise)",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

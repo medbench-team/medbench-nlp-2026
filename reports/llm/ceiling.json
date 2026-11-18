@@ -1,0 +1,138 @@
+{
+  "models": {
+    "gpt-oss:120b": {
+      "RuMedNLI": {
+        "acc": 82.05312275664035,
+        "invalid_rate": 0.0,
+        "in_per_ex": 246.4967695620962,
+        "out_per_ex": 146.87580760947594,
+        "latency_s": 1.0500316997049235,
+        "run_id": "20261118-002542_llm-zero-shot_RuMedNLI_tune_2248f1db"
+      },
+      "RuMedDaNet": {
+        "acc": 95.3125,
+        "invalid_rate": 0.0,
+        "in_per_ex": 299.32421875,
+        "out_per_ex": 149.8203125,
+        "latency_s": 1.0773341682188118,
+        "run_id": "20261118-002543_llm-zero-shot_RuMedDaNet_tune_2248f1db"
+      }
+    },
+    "glm-5.3": {
+      "RuMedNLI": {
+        "acc": 86.00143575017947,
+        "invalid_rate": 0.0,
+        "in_per_ex": 190.8205312275664,
+        "out_per_ex": 812.2735104091888,
+        "latency_s": 5.394288998770199,
+        "run_id": "20261118-002547_llm-zero-shot_RuMedNLI_tune_89791f72"
+      },
+      "RuMedDaNet": {
+        "acc": 96.875,
+        "invalid_rate": 0.0,
+        "in_per_ex": 245.23828125,
+        "out_per_ex": 308.0,
+        "latency_s": 2.3860702483876635,
+        "run_id": "20261118-002548_llm-zero-shot_RuMedDaNet_tune_89791f72"
+      }
+    },
+    "deepseek-v4-pro:0813": {
+      "RuMedNLI": {
+        "acc": 78.82268485283561,
+        "invalid_rate": 0.0,
+        "in_per_ex": 190.53912419239052,
+        "out_per_ex": 394.1880832735104,
+        "latency_s": 3.4814456071909268,
+        "run_id": "20261118-002553_llm-zero-shot_RuMedNLI_tune_4ea0502d"
+      },
+      "RuMedDaNet": {
+        "acc": 94.921875,
+        "invalid_rate": 0.0,
+        "in_per_ex": 249.73046875,
+        "out_per_ex": 181.3125,
+        "latency_s": 2.5019840160928357,
+        "run_id": "20261118-002554_llm-zero-shot_RuMedDaNet_tune_4ea0502d"
+      }
+    },
+    "gemma4:31b": {
+      "RuMedNLI": {
+        "acc": 84.99641062455133,
+        "invalid_rate": 0.0,
+        "in_per_ex": 185.148600143575,
+        "out_per_ex": 525.2254127781766,
+        "latency_s": 2.161960496961217,
+        "run_id": "20261118-002559_llm-zero-shot_RuMedNLI_tune_0b20cdff"
+      },
+      "RuMedDaNet": {
+        "acc": 96.484375,
+        "invalid_rate": 0.0,
+        "in_per_ex": 242.80078125,
+        "out_per_ex": 416.44921875,
+        "latency_s": 1.7207550435938828,
+        "run_id": "20261118-002600_llm-zero-shot_RuMedDaNet_tune_0b20cdff"
+      }
+    }
+  },
+  "baselines": {
+    "naive": {
+      "RuMedDaNet": {
+        "acc": 50.0,
+        "invalid_rate": null,
+        "in_per_ex": null,
+        "out_per_ex": null,
+        "latency_s": null,
+        "run_id": "20261117-213144_naive_RuMedDaNet_tune_0f161807"
+      },
+      "RuMedNLI": {
+        "acc": 33.309404163675524,
+        "invalid_rate": null,
+        "in_per_ex": null,
+        "out_per_ex": null,
+        "latency_s": null,
+        "run_id": "20261117-213144_naive_RuMedNLI_tune_0f161807"
+      }
+    },
+    "linear": {
+      "RuMedNLI": {
+        "acc": 61.66547020818378,
+        "invalid_rate": null,
+        "in_per_ex": null,
+        "out_per_ex": null,
+        "latency_s": null,
+        "run_id": "20261117-213227_linear_RuMedNLI_tune_d8d9ccfb"
+      },
+      "RuMedDaNet": {
+        "acc": 51.5625,
+        "invalid_rate": null,
+        "in_per_ex": null,
+        "out_per_ex": null,
+        "latency_s": null,
+        "run_id": "20261117-213244_linear_RuMedDaNet_tune_d8d9ccfb"
+      }
+    }
+  },
+  "previous_art": {
+    "RuMedNLI": [
+      "RuBioRoBERTa",
+      82.77
+    ],
+    "RuMedDaNet": [
+      "RuBioRoBERTa",
+      76.17
+    ]
+  },
+  "best": {
+    "RuMedNLI": [
+      "glm-5.3",
+      86.00143575017947
+    ],
+    "RuMedDaNet": [
+      "glm-5.3",
+      96.875
+    ]
+  },
+  "verdict": {
+    "RuMedNLI": "LLM: zero-shot glm-5.3 уже на уровне/выше previous art на dev (86.00 ≥ 82.77) — кандидат на финал; дальше — промпты (005)",
+    "RuMedDaNet": "LLM: zero-shot glm-5.3 уже на уровне/выше previous art на dev (96.88 ≥ 76.17) — кандидат на финал; дальше — промпты (005)"
+  }
+}

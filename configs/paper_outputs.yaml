@@ -1,0 +1,126 @@
+# Predictions of the RuMedBench paper models (official repo), used by `medbench eval paper`
+# to prove our metrics reproduce Table 3 of the paper (spec 002, SC-001; research.md R2).
+commit: dd57f4f4f11aebe4fd18011b109d96b6d331a1bf
+base_url: https://raw.githubusercontent.com/sb-ai-lab/MedBench
+tolerance: 0.01
+sets:
+  - name: naive
+    paper_row: Naive
+    overall: 35.21
+    files:
+      - task: RuMedTop3
+        path: code/naive/RuMedTop3.jsonl
+        sha256: 7086200dc5b199c696f1f728ebe4a01076cce025ac57bd3f576dd1252b64212a
+        expected: {acc: 10.58, hit3: 22.02}
+      - task: RuMedSymptomRec
+        path: code/naive/RuMedSymptomRec.jsonl
+        sha256: fb5b8fe9d27bf0e861b64bb9dbea1479e27a3a7b4d47ec5e6719354b6bf42793
+        expected: {acc: 1.93, hit3: 5.30}
+      - task: RuMedDaNet
+        path: code/naive/RuMedDaNet.jsonl
+        sha256: e6de863f7fcde25aefc83e30c763d6a92318657436884d5d708031663b44309a
+        expected: {acc: 50.00}
+      - task: RuMedNLI
+        path: code/naive/RuMedNLI.jsonl
+        sha256: 9ab586b974af1d33f049d8d8e994fc5e992377d8eba4902c16269456d047521d
+        expected: {acc: 33.33}
+      - task: RuMedNER
+        path: code/naive/RuMedNER.jsonl
+        sha256: fba4086024e14b3ea3664c3edbe968f35c4e679636ea2ade212636ed49f70f85
+        expected: {acc: 93.66, f1: 51.96}
+  - name: linear_models
+    paper_row: TF-IDF
+    overall: 58.46
+    files:
+      - task: RuMedTop3
+        path: code/linear_models/out/RuMedTop3.jsonl
+        sha256: 475890f0b7f0c6523a4e59ebdca3e75beed6eeca1da1a915549640336afbedd8
+        expected: {acc: 49.76, hit3: 72.75}
+      - task: RuMedSymptomRec
+        path: code/linear_models/out/RuMedSymptomRec.jsonl
+        sha256: 406ae0dc0f4d3c3d70ee9c1181f22b083a28f6e7f2c73872c94c3365a488d5f3
+        expected: {acc: 32.05, hit3: 49.40}
+      - task: RuMedDaNet
+        path: code/linear_models/out/RuMedDaNet.jsonl
+        sha256: ffad4bac792dd41b07edcdb387519068d9b4aa0d1cf4282576fe579dd89a5743
+        expected: {acc: 51.95}
+      - task: RuMedNLI
+        path: code/linear_models/out/RuMedNLI.jsonl
+        sha256: 2531c65557666fa183a09a09909affda4569f98f76efb81ad1d5c1c412f413c1
+        expected: {acc: 59.70}
+      - task: RuMedNER
+        path: code/linear_models/out/RuMedNER.jsonl
+        sha256: 56eed1978f9b059ffc4d49941c195940f76e0a5a070359cc276fd1c3d36d038b
+        expected: {acc: 94.40, f1: 62.89}
+  - name: bilstm
+    paper_row: BiLSTM
+    overall: 53.87
+    files:
+      - task: RuMedTop3
+        path: code/bilstm/out/RuMedTop3.jsonl
+        sha256: b561bc5369f2105a14398be5b6841c7ed66a61671ab5849ce1946da2d3d8020c
+        expected: {acc: 40.88, hit3: 63.50}
+      - task: RuMedSymptomRec
+        path: code/bilstm/out/RuMedSymptomRec.jsonl
+        sha256: b453f63ea442861083142e965047c90789956f0df123bca623f27ff58418e438
+        expected: {acc: 20.24, hit3: 31.33}
+      - task: RuMedDaNet
+        path: code/bilstm/out/RuMedDaNet.jsonl
+        sha256: 87e0d15a80b6d0d8f968468d0ec0f811b4a7f67ab50c46cd6ea13bf97d4005f2
+        expected: {acc: 52.34}
+      - task: RuMedNLI
+        path: code/bilstm/out/RuMedNLI.jsonl
+        sha256: b0ffc509ff43b48f411b44cdfda4e1168774a6e87ce33dff931d7d56c0609b8f
+        expected: {acc: 60.06}
+      - task: RuMedNER
+        path: code/bilstm/out/RuMedNER.jsonl
+        sha256: 68f3e13b0d02e7a33ddedd734414fa6a59456d37ae5b4ce8f189eb384054827e
+        expected: {acc: 94.74, f1: 63.26}
+  - name: bert
+    paper_row: RuPoolBERT  # code/bert is the RuPoolBERT row of Table 3
+    overall: 67.20
+    files:
+      - task: RuMedTop3
+        path: code/bert/out/RuMedTop3.jsonl
+        sha256: c9dcf41365e1f807ce48767e05097e60a8a1327de3a88d42ad5ea2b6deab283d
+        expected: {acc: 47.45, hit3: 70.44}
+      - task: RuMedSymptomRec
+        path: code/bert/out/RuMedSymptomRec.jsonl
+        sha256: 6bf54a35c99eba93093ff22f2d87f3ab981626f5adf3539da8b237dbca76af20
+        expected: {acc: 34.94, hit3: 52.05}
+      - task: RuMedDaNet
+        path: code/bert/out/RuMedDaNet.jsonl
+        sha256: 0f0c5447d4a92566030ba11b661ba95ee5cdb32d6140ac6a470c8a484943ae78
+        expected: {acc: 71.48}
+      - task: RuMedNLI
+        path: code/bert/out/RuMedNLI.jsonl
+        sha256: 30c183a27fdc5107661f0d0b8a2ef55747af83ba6f08b4356e76e7e33844e3d0
+        expected: {acc: 77.29}
+      - task: RuMedNER
+        path: code/bert/out/RuMedNER.jsonl
+        sha256: 5f22bbc57c0a4148261eef5a82c7890df7de5fc35e1a69af0e04f6c07a6a0cd1
+        expected: {acc: 96.47, f1: 73.15}
+  - name: human
+    paper_row: Human
+    overall: 61.89
+    files:
+      - task: RuMedTop3
+        path: code/human/RuMedTop3.jsonl
+        sha256: 12a93d646dfb67dc181a42c7c4d66b161c35fa3e31e5ef80d51a7982a5ff1637
+        expected: {acc: 25.06, hit3: 48.54}
+      - task: RuMedSymptomRec
+        path: code/human/RuMedSymptomRec.jsonl
+        sha256: 18ec65d8b58d5f4b0d7c654dab0ab59d69bad330b0eb2db5672a1ccd68f5b453
+        expected: {acc: 7.23, hit3: 12.53}
+      - task: RuMedDaNet
+        path: code/human/RuMedDaNet.jsonl
+        sha256: 0ced5d86682dec88cd717b3495c881749bfde17d0e89c6492bda36a99616b2a6
+        expected: {acc: 93.36}
+      - task: RuMedNLI
+        path: code/human/RuMedNLI.jsonl
+        sha256: 4cd953f7293760bea40274359500ef486a487a9b099296c0ec6bcb59bc0169f9
+        expected: {acc: 83.26}
+      - task: RuMedNER
+        path: code/human/RuMedNER.jsonl
+        sha256: 9d8e4766ec447555e12283363cab7d7a46d317cec0e2568de2b6b86bf1f16c7d
+        expected: {acc: 96.09, f1: 76.18}

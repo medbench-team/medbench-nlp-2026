@@ -7,25 +7,41 @@
 Правила проекта — [`.specify/memory/constitution.md`](../.specify/memory/constitution.md),
 инструкции для агентов — [`CLAUDE.md`](../CLAUDE.md).
 
-## Previous art (открытый test RuMedBench, %)
+## Previous art (%)
+
+**Открытый test RuMedBench** — здесь заявляем SotA (ADR-016):
 
 | Задача | Лучший опубликованный результат | Человек |
 |---|---|---|
 | RuMedNLI (Acc) | 82.77 — RuBioRoBERTa | 83.26 |
-| RuMedDaNet (Acc) | 89.3 — ChatGPT (text-davinci-003) | 93.36 |
-| RuMedTest (Acc) | 35.0 — ChatGPT | — |
-| RuMedNER (Acc/F1) | 97.19 / 77.81 — RuBioRoBERTa | 96.09 / 76.18 |
-| RuMedTop3 (Acc/Hit@3) | 49.76 / 72.87 | 25.06 / 48.54 |
-| RuMedSymptomRec (Acc/Hit@3) | 44.01 / 58.95 — RuBioRoBERTa | 7.23 / 12.53 |
+| RuMedDaNet (Acc) | **76.17 — RuBioRoBERTa** | 93.36 |
+| RuMedNER (Acc / F1) | 97.19 / 77.81 — RuBioRoBERTa | 96.09 / 76.18 |
+| RuMedTop3 (Acc / Hit@3) | 49.76 — TF-IDF / 72.87 — RuBioRoBERTa | 25.06 / 48.54 |
+| RuMedSymptomRec (Acc / Hit@3) | 44.01 / 58.95 — RuBioRoBERTa | 7.23 / 12.53 |
+| Overall | 71.54 — RuBioRoBERTa | 61.89 |
 
-Источник: Blinov et al., 2022 (arXiv:2201.06499), README github.com/sb-ai-lab/MedBench.
+**Закрытый test сайта medbench.ru** (сравнивается только с нашими сабмитами):
+
+| Задача | Результат |
+|---|---|
+| RuMedDaNet (Acc) | 89.3 — ChatGPT (text-davinci-003) |
+| RuMedNLI (Acc) | 61.3 — ChatGPT |
+| RuMedTest (Acc) | 35.0 — ChatGPT (случайный ответ ≈ 24.9) |
+
+F1 для NER — micro-F1 по сущностям (как `seqeval.f1_score` в официальном `code/eval.py`).
+Источники: Blinov et al., 2022 (arXiv:2201.06499, табл. 3), README github.com/sb-ai-lab/MedBench
+(RuBioRoBERTa, arXiv:2204.03951), `lb_submissions/SAI/ChatGPT`. Все цифры — в
+`configs/previous_art.yaml` (спека 002).
 
 ## Данные
 
 | Источник | Метки test | Для чего |
 |---|---|---|
-| Открытый RuMedBench (github.com/sb-ai-lab/MedBench) | есть | train/dev — разработка, test — **один финальный прогон** → сравнение с previous art |
-| Сайт medbench.ru (`data/MedBench_data/`, не в git) | нет | доп. train/dev после дедупликации с open test; test → сабмит на лидерборд |
+| Открытый RuMedBench (github.com/sb-ai-lab/MedBench @ `dd57f4f`) | есть (кроме `private_test` и RuMedTest) | train — обучение, **dev — подбор**, test — **один финальный прогон** → сравнение с previous art; `private_test` → сабмит |
+| Сайт medbench.ru (`data/MedBench_data/`, не в git) | нет | **только сверка** (ADR-013): train сайта = open train + dev, **dev сайта = open test**, test сайта = open `private_test` побайтово |
+
+> ⚠️ dev сайта нельзя использовать для подбора — это открытый test (ADR-012, спека 001).
+> У RuMedTest меток нет нигде: качество — только сабмитом на medbench.ru.
 
 ECG2Pathology исключена (сигналы ЭКГ, а не текст).
 
@@ -36,10 +52,10 @@ ECG2Pathology исключена (сигналы ЭКГ, а не текст).
 
 | # | Спека | Что даёт | Зависит от | Где считается | Статус |
 |---|---|---|---|---|---|
-| 001 | `data-pipeline` | Загрузка открытого RuMedBench и данных сайта; Pydantic-схемы; проверка пересечений (дедупликация); EDA и статистика для раздела Dataset | — | сервер | ⬜ |
-| 002 | `eval-harness` | Метрики (Acc, Hit@3, macro-F1, Overall как в статье); формат `results/<run_id>/preds.jsonl` + `meta.json`; сводная таблица vs previous art; экспорт сабмита для medbench.ru | 001 | сервер | ⬜ |
-| 003 | `baselines` | Naive + TF-IDF (char 3–8) + LogReg: воспроизведение цифр статьи, проверка пайплайна | 001, 002 | сервер (CPU) | ⬜ |
-| **004** | **`llm-ceiling-ollama`** | **Потолок LLM: крупнейшие модели Ollama Cloud через LangChain `ChatOllama`, оркестрация LangGraph; zero-shot на NLI / DaNet / RuMedTest** | 001, 002 | Ollama Cloud | ⬜ |
+| 001 | `data-pipeline` | Загрузка открытого RuMedBench @ `dd57f4f`; Pydantic-схемы; роли train/tune/final/submit без утечек; отчёт о пересечениях с данными сайта; EDA и статистика для раздела Dataset | — | сервер | 🟦 |
+| 002 | `eval-harness` | Метрики как в официальном `eval.py` (Acc, Hit@3, NER micro-F1, Overall), проверка на предсказаниях моделей статьи; формат `results/<run_id>/preds.jsonl` + `meta.json`; сводная таблица vs previous art; экспорт сабмита для medbench.ru | 001 | сервер | 🟦 |
+| 003 | `baselines` | Naive + TF-IDF (char 3–8) + LogReg / CRF: воспроизведение цифр статьи, первый полный цикл и первый сабмит | 001, 002 | сервер (CPU), ~7 мин | 🟦 |
+| **004** | **`llm-ceiling-ollama`** | **Потолок LLM: gpt-oss:120b, glm-5.3, deepseek-v4-pro, gemma4:31b (Ollama Cloud) через LangChain `ChatOllama` + граф LangGraph; zero-shot на NLI / DaNet (tune → final) и RuMedTest (submit)** | 001, 002 | Ollama Cloud | 🟦 |
 | 005 | `prompting` | Few-shot (подбор примеров из train), CoT, self-consistency; выбор лучших промптов на dev | 004 | Ollama Cloud | ⬜ |
 | 006 | `encoder-finetune` | Дообучение RuBioRoBERTa / ruRoBERTa-large / multilingual-e5 на NLI и DaNet | 001, 002 | Colab / Kaggle GPU | ⬜ |
 | 007 | `rag-rumedtest` | RAG по медицинским источникам для RuMedTest (ретривер + LLM из 004) | 004 | сервер + Ollama Cloud | ⬜ |
@@ -56,19 +72,17 @@ ECG2Pathology исключена (сигналы ЭКГ, а не текст).
 задачи закрывать LLM, а какие — энкодерами.
 
 - **Провайдер:** `langchain-ollama` `ChatOllama`, `base_url=https://ollama.com`, ключ
-  `OLLAMA_API_KEY` из `.env` (заголовок `Authorization: Bearer`), `temperature=0`.
-  Точные параметры конструктора сверить через context7 при `/speckit-plan`.
-- **Модели:** список из `GET https://ollama.com/v1/models` в момент запуска; берём
-  крупнейшие (класса gpt-oss-120b, qwen3 235B/480B, deepseek-v3.x, kimi, gemma). Итоговый
-  список фиксируется в спеке и в `meta.json`.
+  `OLLAMA_API_KEY` из `.env` (заголовок `Authorization: Bearer` через `client_kwargs`),
+  `temperature=0`, `reasoning=True` (проверено живыми вызовами, research R2).
+- **Модели (clarify):** `gpt-oss:120b`, `glm-5.3`, `deepseek-v4-pro:0813`, `gemma4:31b` из 24 в
+  каталоге; остальные добавляются конфигом `configs/llm_ceiling.yaml`.
 - **Граф LangGraph** (один на все задачи): `build_prompt` → проверка кеша → `call_llm` →
-  `parse` (structured output: Pydantic с enum меток `entailment|contradiction|neutral`,
-  `да|нет`, `1|2|3|4`) → `validate` → при невалидном ответе `retry` (до N раз) →
-  `fallback` (метка по умолчанию + `invalid=true`).
-- **Прогон:** батчи с семафором параллельности и rate-limit, дисковый кеш, лог токенов и
-  латентности.
-- **Где меряем:** dev; открытый test — один финальный прогон. RuMedTest — по меткам из
-  открытого репозитория (наличие проверяется в 001), иначе только сабмит на сайт.
+  `parse` (строка «Ответ: …» + русские синонимы — **облако игнорирует `format`/JSON-схему**,
+  ADR-020) → `validate` → `reprompt` (до 2 раз) → `fallback` (метка по умолчанию + `invalid=true`).
+- **Прогон:** `graph.abatch(max_concurrency=4)`, экспоненциальная пауза при 429/5xx, кеш
+  ответов в SQLite вне git, лог токенов и латентности.
+- **Где меряем:** роль `tune` (open dev); открытый test (`final`) — один финальный прогон.
+  RuMedTest — меток нет (проверено в 001), только сабмит `private_test` на сайт.
 - **Результат:** таблица «модель × задача» vs previous art + вывод для спек 005–007.
 
 ## Архитектура кода (закрепляется в 001–002)
@@ -98,12 +112,15 @@ tests/        # pytest, без сети
 | 00 Roadmap | Спеки 001–010, зависимости, статусы | `29b61eea-cd59-4c5d-9e9e-197c99294fa8` |
 | 01 Architecture | Модули `src/medbench` и внешние системы | `19a8dfe0-5002-40a7-9739-671059756861` |
 | 02 Data & Evaluation | Какие данные для чего, правила работы с test | `f9701999-5430-451e-80c3-08c55070d032` |
-| 03 Decisions (ADR) | ADR-001…011 | `eaa9345d-c899-4fed-b265-af4bc1833afc` |
+| 03 Decisions (ADR) | ADR-001…020 (ADR-003 заменён ADR-020) | `eaa9345d-c899-4fed-b265-af4bc1833afc` |
+| 001 data-pipeline | Загрузка, роли сплитов, пересечения, EDA | `f271f48c-fff4-495c-98a9-afa48a2bad09` |
+| 002 eval-harness | Сохранение прогонов, метрики, сводка, сабмит | `9aa75117-eef6-4cd3-bb6c-42951122cb0e` |
+| 003 baselines | Naive и TF-IDF/CRF, поток обучения и сохранения | `696157e7-7db2-4631-8567-61f907f3988f` |
 | 004 LLM ceiling (Ollama + LangGraph) | Граф LangGraph и поток прогона | `691a83e8-0946-4fb2-8c89-9a265eec5690` |
 
 ## Открытые вопросы
 
-- Есть ли метки RuMedTest в открытом репозитории (проверяется в 001)?
+- ~~Есть ли метки RuMedTest в открытом репозитории?~~ Нет (спека 001): только сабмит.
 - Формат сабмита на medbench.ru (написать на medbench@yandex.ru или открыть issue).
 - Лимиты и квоты Ollama Cloud на ~3 000 запросов на модель (dev + test трёх задач).
 - Дедлайн сдачи проекта; кто из команды берёт GPU-спеки (006, 008).

@@ -45,7 +45,14 @@ transformers, datasets, scikit-learn, pydantic, typer) сверяйся с conte
 ## Стек и команды
 
 - Python 3.12, `uv`, src-layout `src/medbench/`, CLI на typer.
-- `uv sync` — установить зависимости; `uv run pytest` — тесты; `uv run medbench <cmd>` — прогоны.
+- `uv sync` — установить зависимости; `uv run pytest` — тесты (без сети); `uv run medbench <cmd>` — прогоны.
+- LLM (спека 004): `uv run medbench llm models | run [--model M] [--task T] [--role R] [--limit N] | report`;
+  ответы кешируются в `data/llm_cache/` (повтор бесплатный); облако **игнорирует `format`/JSON-схему** —
+  формат ответа держит промпт + `medbench.llm.parse` (ADR-020); ключ `OLLAMA_API_KEY` только в `.env`.
+- Бейзлайны: `uv run medbench baselines run [--role tune|final|submit]`, `uv run medbench baselines report`
+  (≈ 7 мин на роль, пик 1.2 ГБ RAM — реальные прогоны запускать по одному).
+- Данные: `uv run medbench data download | verify | overlap | stats`; в коде — только
+  `medbench.data.get_role(task, role)` с ролями `train` / `tune` / `final` / `submit` (не читать файлы напрямую).
 - LLM: Ollama Cloud (`https://ollama.com`) через `langchain-ollama` `ChatOllama`, оркестрация —
   LangGraph. Ключ `OLLAMA_API_KEY` в `.env`.
 - На сервере **нет GPU** (2 CPU, ~3 ГБ RAM): обучение энкодеров/LoRA — Colab/Kaggle; в репо —
@@ -53,12 +60,15 @@ transformers, datasets, scikit-learn, pydantic, typer) сверяйся с conte
 
 ## Данные и оценка
 
-- `data/MedBench_data/` — версия с сайта medbench.ru, **test без меток**. Не в git.
-- Открытый RuMedBench (github.com/sb-ai-lab/MedBench) — test с метками, на нём previous art.
-- Подбор моделей, промптов и гиперпараметров — **только по dev**. Открытый test — один
+- Единственный источник примеров — открытый RuMedBench @ `dd57f4f` (`configs/data.yaml`).
+- `data/MedBench_data/` — версия сайта, только для сверки: **dev сайта = открытый test**, test сайта =
+  открытый `private_test`. Не в git.
+- Подбор моделей, промптов и гиперпараметров — **только по роли `tune` (открытый dev)**. Открытый test — один
   финальный прогон на конфигурацию. Метки test для подбора не использовать никогда.
-- Метрики и Overall — ровно как в статье RuMedBench. Все подходы пишут единый
-  `results/<run_id>/preds.jsonl` + `meta.json`.
+- Метрики и Overall — ровно как в официальном `code/eval.py` (`medbench.eval`, проверка —
+  `uv run medbench eval paper`). Результаты сохранять **только** через `medbench.eval.save_run`
+  (`results/runs/<run_id>/`); на `final` — один прогон на конфигурацию, повтор только с обоснованием.
+- Previous art: `configs/previous_art.yaml`; open test и закрытый test сайта не смешивать (ADR-016).
 
 ## Безопасность
 

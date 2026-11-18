@@ -1,0 +1,22 @@
+# LLM ceiling (spec 004): zero-shot cloud models via LangChain ChatOllama + LangGraph.
+# Changing prompt_version / generation / format_retries / fallback creates a new run configuration.
+base_url: https://ollama.com
+models:            # clarify 2026-11-17 → B
+  - gpt-oss:120b
+  - glm-5.3
+  - deepseek-v4-pro:0813
+  - gemma4:31b
+prompt_version: v1
+generation:
+  temperature: 0
+  reasoning: true
+  num_predict: 8192
+concurrency: 4
+format_retries: 2
+http_retries: 5
+timeout_s: 300
+fallback:          # used only when the answer cannot be parsed (marked invalid)
+  RuMedNLI: neutral
+  RuMedDaNet: да
+  RuMedTest: 1
+cache_path: data/llm_cache/cache.sqlite

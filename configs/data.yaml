@@ -1,0 +1,107 @@
+# RuMedBench open data source, pinned for reproducibility (constitution II, research.md R1).
+# Files are downloaded to <data_dir>/<commit>/<task>/<split>_v1.jsonl and verified by sha256 + rows.
+source:
+  repo: sb-ai-lab/MedBench
+  commit: dd57f4f4f11aebe4fd18011b109d96b6d331a1bf
+  base_url: https://raw.githubusercontent.com/sb-ai-lab/MedBench
+data_dir: data/rumedbench
+# Optional local copy of the medbench.ru version; used only for the overlap report (ADR-013).
+site_dir: data/MedBench_data
+# Official splits contain a few exact duplicates of test examples in train/dev (short boilerplate
+# phrases). `final` stays official for comparability with previous art; these rows are removed
+# from train/tune (ADR-014). Counts are rows removed; any other count raises LeakageError.
+known_overlaps:
+  RuMedNLI: {tune: 2}
+  RuMedNER: {train: 28, tune: 7}
+  RuMedSymptomRec: {train: 1}
+files:
+  - task: RuMedNLI
+    split: train
+    path: data/RuMedNLI/train_v1.jsonl
+    sha256: 2772f93229aaa57b9f1ac2212843e5753b6fc6952ee4e8603eb422abdeee3ae5
+    rows: 11232
+  - task: RuMedNLI
+    split: dev
+    path: data/RuMedNLI/dev_v1.jsonl
+    sha256: 59bc18b273acd05c103ef1f67c734dd7bfb57aad5a6810e215193928ed0252eb
+    rows: 1395
+  - task: RuMedNLI
+    split: test
+    path: data/RuMedNLI/test_v1.jsonl
+    sha256: 57cef5ecb5b86864d65d1cfda74c3ca5ed35a006de56ad9fbc1fe60e5fcde1d1
+    rows: 1422
+  - task: RuMedNLI
+    split: private_test
+    path: data/RuMedNLI/private_test_v1.jsonl
+    sha256: fac7f3d3dbe80b5238c8d0cbacd69257766e54d2a28efbbe3f692ecaa4b70004
+    rows: 1536
+  - task: RuMedDaNet
+    split: train
+    path: data/RuMedDaNet/train_v1.jsonl
+    sha256: d578427338e53635bcf11f4b0aaaa94f1f6dac6cbfffdc15c1440fce7f859de8
+    rows: 1052
+  - task: RuMedDaNet
+    split: dev
+    path: data/RuMedDaNet/dev_v1.jsonl
+    sha256: 546531142765f55856f971fb748d6aa15ac51c52607f61f553fb6e8726cf590c
+    rows: 256
+  - task: RuMedDaNet
+    split: test
+    path: data/RuMedDaNet/test_v1.jsonl
+    sha256: 995519f1a354978369396870fb23e9ab62f25b60fc3a676bbe78d82edf726443
+    rows: 256
+  - task: RuMedDaNet
+    split: private_test
+    path: data/RuMedDaNet/private_test_v1.jsonl
+    sha256: 6346e6de314a24d409ab7bcc1eaecd006155c51cfa13e885045e32e569b018e4
+    rows: 512
+  - task: RuMedTest
+    split: private_test
+    path: data/RuMedTest/private_test_v1.jsonl
+    sha256: 8aa36ea4dff9461222f297536065a8c112d8340bf4cdb9b8f7924ab6432e16e9
+    rows: 397
+  - task: RuMedNER
+    split: train
+    path: data/RuMedNER/train_v1.jsonl
+    sha256: 8e971a3e953a140c4fb89ceb87f194f6bcba69469b15de153509ae0969b3677c
+    rows: 3440
+  - task: RuMedNER
+    split: dev
+    path: data/RuMedNER/dev_v1.jsonl
+    sha256: 9949b3b4edca4ac162342fe859869d1a8f0720d668f126c06feb623fe8455b93
+    rows: 676
+  - task: RuMedNER
+    split: test
+    path: data/RuMedNER/test_v1.jsonl
+    sha256: 27a22b03dda8bf2321c7c754a0e7ba4ab9c1c7df89c1a8828a221b08012c9763
+    rows: 693
+  - task: RuMedTop3
+    split: train
+    path: data/RuMedTop3/train_v1.jsonl
+    sha256: b185fe85ad4b4346be3180997fa77816b6e4166567560f2ce948428c51eb6b85
+    rows: 4690
+  - task: RuMedTop3
+    split: dev
+    path: data/RuMedTop3/dev_v1.jsonl
+    sha256: 6b56b2d916a9da92064c749092d2fc4a1677e17b9bb03978f41b213e99c6d286
+    rows: 848
+  - task: RuMedTop3
+    split: test
+    path: data/RuMedTop3/test_v1.jsonl
+    sha256: 2be46c07dabe26976b6393f93e6333818665530953e7c22007c6080de3dca507
+    rows: 822
+  - task: RuMedSymptomRec
+    split: train
+    path: data/RuMedSymptomRec/train_v1.jsonl
+    sha256: a80ea555304a554590048710e2a0ad505877ad1bc2a1348530a03d48632a16fc
+    rows: 2470
+  - task: RuMedSymptomRec
+    split: dev
+    path: data/RuMedSymptomRec/dev_v1.jsonl
+    sha256: 0b440087aa53e190afdb38098a4c81b6845c226cdffd7110beaea5955d88e582
+    rows: 415
+  - task: RuMedSymptomRec
+    split: test
+    path: data/RuMedSymptomRec/test_v1.jsonl
+    sha256: 8ff4e93df488a8453de9e14b21b797dfbda123fbd40b5e4c0d18ab04520bed72
+    rows: 415

@@ -1,0 +1,25 @@
+{
+  "run_id": "20261117-213145_naive_RuMedTop3_tune_0f161807",
+  "approach": "naive",
+  "model": "-",
+  "params": {
+    "strategy": "most_frequent",
+    "ner": "token_lookup",
+    "rumedtest": 1
+  },
+  "config_hash": "0f161807686095f1c18fab3181bbb86a69ba654fc2e23af54df95aafb46f0b4f",
+  "task": "RuMedTop3",
+  "role": "tune",
+  "n_examples": 848,
+  "metrics": {
+    "acc": 10.25943396226415,
+    "hit3": 21.108490566037737
+  },
+  "invalid_rate": 0.0,
+  "usage": null,
+  "code_commit": "0784c578f432e75b2e6f96f3b7380892c9add960-dirty",
+  "data_commit": "dd57f4f4f11aebe4fd18011b109d96b6d331a1bf",
+  "created_at": "2026-11-17T21:31:45+00:00",
+  "justification": null,
+  "notes": null
+}
