@@ -1,0 +1,266 @@
+{
+  "commit": "dd57f4f4f11aebe4fd18011b109d96b6d331a1bf",
+  "site_found": true,
+  "sizes": {
+    "RuMedNLI": {
+      "open:train": 11232,
+      "open:dev": 1395,
+      "open:test": 1422,
+      "open:private_test": 1536,
+      "site:train": 12627,
+      "site:dev": 1422,
+      "site:test": 1536
+    },
+    "RuMedDaNet": {
+      "open:train": 1052,
+      "open:dev": 256,
+      "open:test": 256,
+      "open:private_test": 512,
+      "site:train": 1308,
+      "site:dev": 256,
+      "site:test": 512
+    },
+    "RuMedTest": {
+      "open:private_test": 397,
+      "site:test": 397
+    },
+    "RuMedNER": {
+      "open:train": 3440,
+      "open:dev": 676,
+      "open:test": 693
+    },
+    "RuMedTop3": {
+      "open:train": 4690,
+      "open:dev": 848,
+      "open:test": 822
+    },
+    "RuMedSymptomRec": {
+      "open:train": 2470,
+      "open:dev": 415,
+      "open:test": 415
+    }
+  },
+  "pairs": {
+    "RuMedNLI": {
+      "site:train": {
+        "open:train": 11222,
+        "open:dev": 1395,
+        "open:test": 2,
+        "open:private_test": 0
+      },
+      "site:dev": {
+        "open:train": 0,
+        "open:dev": 2,
+        "open:test": 1421,
+        "open:private_test": 0
+      },
+      "site:test": {
+        "open:train": 0,
+        "open:dev": 0,
+        "open:test": 0,
+        "open:private_test": 1536
+      }
+    },
+    "RuMedDaNet": {
+      "site:train": {
+        "open:train": 1052,
+        "open:dev": 256,
+        "open:test": 0,
+        "open:private_test": 0
+      },
+      "site:dev": {
+        "open:train": 0,
+        "open:dev": 0,
+        "open:test": 256,
+        "open:private_test": 0
+      },
+      "site:test": {
+        "open:train": 0,
+        "open:dev": 0,
+        "open:test": 0,
+        "open:private_test": 512
+      }
+    },
+    "RuMedTest": {
+      "site:test": {
+        "open:private_test": 397
+      }
+    }
+  },
+  "open_pairs": {
+    "RuMedNLI": {
+      "open:train": {
+        "open:dev": 0,
+        "open:test": 0,
+        "open:private_test": 0
+      },
+      "open:dev": {
+        "open:train": 0,
+        "open:test": 2,
+        "open:private_test": 0
+      },
+      "open:test": {
+        "open:train": 0,
+        "open:dev": 2,
+        "open:private_test": 0
+      },
+      "open:private_test": {
+        "open:train": 0,
+        "open:dev": 0,
+        "open:test": 0
+      }
+    },
+    "RuMedDaNet": {
+      "open:train": {
+        "open:dev": 0,
+        "open:test": 0,
+        "open:private_test": 0
+      },
+      "open:dev": {
+        "open:train": 0,
+        "open:test": 0,
+        "open:private_test": 0
+      },
+      "open:test": {
+        "open:train": 0,
+        "open:dev": 0,
+        "open:private_test": 0
+      },
+      "open:private_test": {
+        "open:train": 0,
+        "open:dev": 0,
+        "open:test": 0
+      }
+    },
+    "RuMedTest": {
+      "open:private_test": {}
+    },
+    "RuMedNER": {
+      "open:train": {
+        "open:dev": 10,
+        "open:test": 14
+      },
+      "open:dev": {
+        "open:train": 10,
+        "open:test": 6
+      },
+      "open:test": {
+        "open:train": 14,
+        "open:dev": 6
+      }
+    },
+    "RuMedTop3": {
+      "open:train": {
+        "open:dev": 0,
+        "open:test": 0
+      },
+      "open:dev": {
+        "open:train": 0,
+        "open:test": 0
+      },
+      "open:test": {
+        "open:train": 0,
+        "open:dev": 0
+      }
+    },
+    "RuMedSymptomRec": {
+      "open:train": {
+        "open:dev": 0,
+        "open:test": 1
+      },
+      "open:dev": {
+        "open:train": 0,
+        "open:test": 0
+      },
+      "open:test": {
+        "open:train": 1,
+        "open:dev": 0
+      }
+    }
+  },
+  "label_conflicts": [
+    {
+      "task": "RuMedNER",
+      "a": "open:train",
+      "b": "open:test",
+      "id_a": "2459114.tsv_8",
+      "id_b": "2446305.tsv_15",
+      "label_a": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "label_b": [
+        "O",
+        "O",
+        "O",
+        "B-Drugform",
+        "I-Drugform"
+      ]
+    },
+    {
+      "task": "RuMedSymptomRec",
+      "a": "open:train",
+      "b": "open:test",
+      "id_a": "q35695ed",
+      "id_b": "q4d4bdca",
+      "label_a": "учащенное сердцебиение",
+      "label_b": "дискомфорт в области шеи"
+    }
+  ],
+  "in_split_duplicates": {
+    "RuMedNLI": {
+      "open:train": 10,
+      "open:dev": 0,
+      "open:test": 1,
+      "open:private_test": 0,
+      "site:train": 10,
+      "site:dev": 1,
+      "site:test": 0
+    },
+    "RuMedDaNet": {
+      "open:train": 0,
+      "open:dev": 0,
+      "open:test": 0,
+      "open:private_test": 0,
+      "site:train": 0,
+      "site:dev": 0,
+      "site:test": 0
+    },
+    "RuMedTest": {
+      "open:private_test": 0,
+      "site:test": 0
+    },
+    "RuMedNER": {
+      "open:train": 51,
+      "open:dev": 3,
+      "open:test": 2
+    },
+    "RuMedTop3": {
+      "open:train": 1,
+      "open:dev": 0,
+      "open:test": 0
+    },
+    "RuMedSymptomRec": {
+      "open:train": 6,
+      "open:dev": 0,
+      "open:test": 0
+    }
+  },
+  "identical_files": [
+    [
+      "RuMedNLI",
+      "test"
+    ],
+    [
+      "RuMedDaNet",
+      "test"
+    ],
+    [
+      "RuMedTest",
+      "test"
+    ]
+  ]
+}

@@ -221,4 +221,13 @@ __marimo__/
 
 # Custom
 # Data
-data/
+/data/
+
+# Context
+/context/
+
+# OS
+.DS_Store
+
+# Submission archives (rebuilt from results/runs)
+/results/submissions/

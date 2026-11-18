@@ -1,0 +1,91 @@
+# Published RuMedBench results (previous art), %. Single source for the leaderboard (spec 002, FR-008).
+# test: open — open RuMedBench test (where we claim SotA); site — closed medbench.ru test (ADR-016).
+# Metrics: acc (all), hit3 (Top3, SymptomRec), f1 (NER, micro over entities as in code/eval.py).
+- system: Naive
+  source: "Blinov et al., 2022 (arXiv:2201.06499), Table 3"
+  test: open
+  metrics:
+    RuMedTop3: {acc: 10.58, hit3: 22.02}
+    RuMedSymptomRec: {acc: 1.93, hit3: 5.30}
+    RuMedDaNet: {acc: 50.00}
+    RuMedNLI: {acc: 33.33}
+    RuMedNER: {acc: 93.66, f1: 51.96}
+  overall: 35.21
+- system: TF-IDF + LogReg/CRF
+  source: "Blinov et al., 2022, Table 3"
+  test: open
+  metrics:
+    RuMedTop3: {acc: 49.76, hit3: 72.75}
+    RuMedSymptomRec: {acc: 32.05, hit3: 49.40}
+    RuMedDaNet: {acc: 51.95}
+    RuMedNLI: {acc: 59.70}
+    RuMedNER: {acc: 94.40, f1: 62.89}
+  overall: 58.46
+- system: BiLSTM
+  source: "Blinov et al., 2022, Table 3"
+  test: open
+  metrics:
+    RuMedTop3: {acc: 40.88, hit3: 63.50}
+    RuMedSymptomRec: {acc: 20.24, hit3: 31.33}
+    RuMedDaNet: {acc: 52.34}
+    RuMedNLI: {acc: 60.06}
+    RuMedNER: {acc: 94.74, f1: 63.26}
+  overall: 53.87
+- system: RuBERT
+  source: "Blinov et al., 2022, Table 3"
+  test: open
+  metrics:
+    RuMedTop3: {acc: 39.54, hit3: 62.29}
+    RuMedSymptomRec: {acc: 18.55, hit3: 34.22}
+    RuMedDaNet: {acc: 67.19}
+    RuMedNLI: {acc: 77.64}
+    RuMedNER: {acc: 96.63, f1: 73.53}
+  overall: 61.44
+- system: RuPoolBERT
+  source: "Blinov et al., 2022, Table 3"
+  test: open
+  metrics:
+    RuMedTop3: {acc: 47.45, hit3: 70.44}
+    RuMedSymptomRec: {acc: 34.94, hit3: 52.05}
+    RuMedDaNet: {acc: 71.48}
+    RuMedNLI: {acc: 77.29}
+    RuMedNER: {acc: 96.47, f1: 73.15}
+  overall: 67.20
+- system: RuBioBERT
+  source: "README sb-ai-lab/MedBench; arXiv:2204.03951"
+  test: open
+  metrics:
+    RuMedTop3: {acc: 43.55, hit3: 68.86}
+    RuMedSymptomRec: {acc: 28.94, hit3: 44.55}
+    RuMedDaNet: {acc: 53.91}
+    RuMedNLI: {acc: 80.31}
+    RuMedNER: {acc: 96.63, f1: 75.97}
+  overall: 62.69
+- system: RuBioRoBERTa
+  source: "README sb-ai-lab/MedBench; arXiv:2204.03951"
+  test: open
+  metrics:
+    RuMedTop3: {acc: 46.72, hit3: 72.87}
+    RuMedSymptomRec: {acc: 44.01, hit3: 58.95}
+    RuMedDaNet: {acc: 76.17}
+    RuMedNLI: {acc: 82.77}
+    RuMedNER: {acc: 97.19, f1: 77.81}
+  overall: 71.54
+- system: Human
+  source: "Blinov et al., 2022, Table 3 (overall recomputed by us from code/human)"
+  test: open
+  human: true
+  metrics:
+    RuMedTop3: {acc: 25.06, hit3: 48.54}
+    RuMedSymptomRec: {acc: 7.23, hit3: 12.53}
+    RuMedDaNet: {acc: 93.36}
+    RuMedNLI: {acc: 83.26}
+    RuMedNER: {acc: 96.09, f1: 76.18}
+  overall: 61.89
+- system: ChatGPT (text-davinci-003)
+  source: "sb-ai-lab/MedBench lb_submissions/SAI/ChatGPT/README.md"
+  test: site
+  metrics:
+    RuMedDaNet: {acc: 89.3}
+    RuMedNLI: {acc: 61.3}
+    RuMedTest: {acc: 35.0}

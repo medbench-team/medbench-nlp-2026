@@ -1,0 +1,669 @@
+{"id": "2472239.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "B-ADR", "O", "O", "I-DI", "O", "O", "O"]}
+{"id": "2472239.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "I-DI", "O", "O", "O", "O", "O"]}
+{"id": "2472239.tsv_2", "prediction": ["O", "O", "O", "O", "B-ADR", "O", "I-ADR", "O", "B-ADR", "B-ADR", "O"]}
+{"id": "2472239.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O"]}
+{"id": "769708.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O"]}
+{"id": "769708.tsv_1", "prediction": ["O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O"]}
+{"id": "769708.tsv_2", "prediction": ["O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "769708.tsv_3", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "769708.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "769708.tsv_5", "prediction": ["B-Drugname", "O", "B-Drugclass", "O", "O"]}
+{"id": "769708.tsv_6", "prediction": ["O", "B-DI", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "769708.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "769708.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "769708.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "769708.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "656346.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "656346.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "I-DI", "O", "O"]}
+{"id": "656346.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "656346.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "656346.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "656346.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O"]}
+{"id": "265385.tsv_0", "prediction": ["B-Drugform", "O", "I-Drugname", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "265385.tsv_1", "prediction": ["B-DI", "O", "O", "O", "O"]}
+{"id": "265385.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "I-DI", "O", "O", "O"]}
+{"id": "265385.tsv_3", "prediction": ["O", "O", "O", "O", "O", "B-ADR", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_0", "prediction": ["O", "O", "O"]}
+{"id": "2397151.tsv_1", "prediction": ["O", "O", "B-Drugname", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2397151.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_3", "prediction": ["O", "B-DI", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_4", "prediction": ["B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_5", "prediction": ["O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_6", "prediction": ["B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_8", "prediction": ["O", "O", "O", "O"]}
+{"id": "2397151.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2397151.tsv_12", "prediction": ["O", "O", "O"]}
+{"id": "2822501.tsv_0", "prediction": ["O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2822501.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2822501.tsv_2", "prediction": ["O", "B-Drugname", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O"]}
+{"id": "2822501.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "B-ADR", "O", "B-ADR", "O"]}
+{"id": "2822501.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O"]}
+{"id": "2822501.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2395998.tsv_0", "prediction": ["O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O"]}
+{"id": "2395998.tsv_1", "prediction": ["O", "O", "O", "O", "B-DI", "O", "O", "B-DI", "O", "I-DI", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2395998.tsv_2", "prediction": ["O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2395998.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O"]}
+{"id": "2395998.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2395998.tsv_5", "prediction": ["O", "O", "O", "B-Drugname", "O", "O", "O"]}
+{"id": "2395998.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O"]}
+{"id": "2395998.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O", "O", "O"]}
+{"id": "2542614.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2542614.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2542614.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugname", "O"]}
+{"id": "2542614.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2542614.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2542614.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2542614.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2407197.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O"]}
+{"id": "2407197.tsv_1", "prediction": ["O", "B-Drugname", "O", "O", "O"]}
+{"id": "2407197.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2407197.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2407197.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2407197.tsv_5", "prediction": ["O", "O", "O", "O", "B-Drugname", "O"]}
+{"id": "2407197.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "594839.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "I-ADR", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "594839.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "594839.tsv_2", "prediction": ["O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "594839.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "594839.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2735484.tsv_0", "prediction": ["O", "O", "B-Drugname", "O", "O", "O", "O", "O"]}
+{"id": "2735484.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Finding", "I-Finding", "O"]}
+{"id": "2735484.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O"]}
+{"id": "2735484.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2735484.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2735484.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2735484.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2903297.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2903297.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O"]}
+{"id": "2903297.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O"]}
+{"id": "2903297.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2903297.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2903297.tsv_5", "prediction": ["O", "B-Drugname", "O", "B-Drugname", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "B-Drugname", "O", "O", "O", "O"]}
+{"id": "2903297.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2903297.tsv_7", "prediction": ["O", "O", "O", "O", "B-Drugname", "O"]}
+{"id": "2732647.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2732647.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2732647.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2732647.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O"]}
+{"id": "2732647.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2732647.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2732647.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2732647.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O"]}
+{"id": "2732647.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2732647.tsv_9", "prediction": ["O", "O", "O", "O"]}
+{"id": "2732647.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_0", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_1", "prediction": ["O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_2", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_3", "prediction": ["O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "B-Drugname", "O", "B-Drugname", "O", "O", "B-Drugform", "O"]}
+{"id": "255563.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "255563.tsv_10", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2540419.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2540419.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2540419.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "I-DI", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "2540419.tsv_3", "prediction": ["O", "O", "O"]}
+{"id": "2540419.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O"]}
+{"id": "2540419.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2540419.tsv_6", "prediction": ["O", "B-DI", "I-DI", "O", "O", "O", "O", "O", "O"]}
+{"id": "2540419.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2540419.tsv_8", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "151880.tsv_0", "prediction": ["O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O"]}
+{"id": "151880.tsv_1", "prediction": ["O", "O", "I-DI", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O"]}
+{"id": "151880.tsv_2", "prediction": ["O", "O"]}
+{"id": "151880.tsv_3", "prediction": ["O", "O", "O", "B-DI", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O"]}
+{"id": "151880.tsv_4", "prediction": ["O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O"]}
+{"id": "151880.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "151880.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "B-ADR", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O"]}
+{"id": "151880.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "B-ADR", "B-ADR", "O"]}
+{"id": "151880.tsv_8", "prediction": ["O", "O", "O", "O", "O", "I-DI", "I-DI", "O", "O", "O", "O", "O", "O", "O", "B-Finding", "O"]}
+{"id": "151880.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "151880.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "151880.tsv_11", "prediction": ["O", "O", "O", "O"]}
+{"id": "2388814.tsv_0", "prediction": ["O", "O", "O", "B-Drugname", "O", "O", "B-Drugform", "O", "O", "O"]}
+{"id": "2388814.tsv_1", "prediction": ["O", "O", "O", "O", "B-DI", "O", "I-DI", "O", "I-ADR", "O", "O", "O", "O", "O", "O"]}
+{"id": "2388814.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2388814.tsv_3", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2388814.tsv_4", "prediction": ["O", "O", "B-ADR", "O", "O", "O"]}
+{"id": "2388814.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2491980.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "2491980.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2491980.tsv_2", "prediction": ["O", "O", "O", "O"]}
+{"id": "2491980.tsv_3", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2491980.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2491980.tsv_5", "prediction": ["O", "O", "O", "O"]}
+{"id": "1105026.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1105026.tsv_1", "prediction": ["O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1105026.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "I-ADR", "O"]}
+{"id": "1105026.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1105026.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1105026.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O"]}
+{"id": "1105026.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR"]}
+{"id": "588478.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "588478.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "588478.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "588478.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "588478.tsv_4", "prediction": ["O", "O", "O", "O", "B-DI", "O", "O", "O"]}
+{"id": "588478.tsv_5", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "588478.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "588478.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "588478.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "588478.tsv_9", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "588478.tsv_10", "prediction": ["O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O"]}
+{"id": "588478.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "B-Finding", "O"]}
+{"id": "588478.tsv_12", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2493805.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2493805.tsv_1", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2493805.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "B-Drugname", "I-Drugname", "O"]}
+{"id": "2493805.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2493805.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2493805.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2493805.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "828011.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "828011.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "B-ADR", "O", "O", "I-ADR", "O", "O", "B-ADR", "O", "I-ADR", "O", "O", "O", "O", "B-ADR", "O"]}
+{"id": "828011.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "828011.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "897584.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_7", "prediction": ["O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "897584.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "875711.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "875711.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "875711.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O"]}
+{"id": "875711.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "875711.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O"]}
+{"id": "875711.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "875711.tsv_6", "prediction": ["O", "O", "O", "O"]}
+{"id": "875711.tsv_7", "prediction": ["O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O"]}
+{"id": "875711.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "875711.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "875711.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "875711.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2396436.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2396436.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "I-DI", "O"]}
+{"id": "2396436.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "I-Finding", "O", "O", "O", "O", "I-DI", "O"]}
+{"id": "2396436.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2396436.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2396436.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2396436.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2396436.tsv_7", "prediction": ["O", "O", "O", "O"]}
+{"id": "641480.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "641480.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "641480.tsv_2", "prediction": ["O", "O", "O", "O", "B-Drugclass", "O", "O"]}
+{"id": "641480.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "641480.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "B-ADR", "O"]}
+{"id": "641480.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "641480.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "641480.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "641480.tsv_8", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "641480.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "641480.tsv_10", "prediction": ["O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "641480.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "172744.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "172744.tsv_1", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2440528.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "B-Drugform", "O", "B-Drugform", "O", "B-Drugform", "O", "B-Drugform", "O"]}
+{"id": "2440528.tsv_1", "prediction": ["O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O"]}
+{"id": "2440528.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2440528.tsv_3", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2440528.tsv_4", "prediction": ["O", "B-Drugclass", "O", "O", "O", "O", "O"]}
+{"id": "2440528.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2440528.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2440528.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "2440528.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2440528.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "818785.tsv_0", "prediction": ["O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "818785.tsv_1", "prediction": ["O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "818785.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "I-DI", "O", "O", "O", "O"]}
+{"id": "818785.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "818785.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "818785.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "I-DI", "O"]}
+{"id": "828556.tsv_0", "prediction": ["O", "O", "B-Drugname", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "828556.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "I-ADR", "O", "I-ADR", "O", "O"]}
+{"id": "828556.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "828556.tsv_3", "prediction": ["O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "B-DI", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O"]}
+{"id": "828556.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "828556.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "828556.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "828556.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "B-Drugname", "O"]}
+{"id": "2452343.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_3", "prediction": ["O", "O", "O", "O"]}
+{"id": "2452343.tsv_4", "prediction": ["O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_5", "prediction": ["O", "B-Drugform", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_9", "prediction": ["O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_12", "prediction": ["O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2452343.tsv_13", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "110018.tsv_0", "prediction": ["O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "110018.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "110018.tsv_2", "prediction": ["O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "110018.tsv_3", "prediction": ["O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "110018.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "110018.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "110018.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "110018.tsv_7", "prediction": ["O", "O", "O", "O", "O", "I-DI", "I-ADR", "O", "O", "O", "O", "O", "O"]}
+{"id": "110018.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2510045.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O"]}
+{"id": "2510045.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_3", "prediction": ["O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2510045.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_12", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_13", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-Finding", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2510045.tsv_14", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2706079.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O"]}
+{"id": "2706079.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2706079.tsv_2", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2706079.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2706079.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O"]}
+{"id": "2408295.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O"]}
+{"id": "2408295.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2408295.tsv_2", "prediction": ["O", "O", "O", "O"]}
+{"id": "2408295.tsv_3", "prediction": ["O", "O", "O", "O"]}
+{"id": "2408295.tsv_4", "prediction": ["O", "O", "O"]}
+{"id": "2408295.tsv_5", "prediction": ["O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2408295.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2408295.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2408295.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2408295.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2408295.tsv_10", "prediction": ["O", "B-Drugname", "B-Drugform", "O", "O", "O"]}
+{"id": "2424525.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2424525.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Finding", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2424525.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2424525.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2424525.tsv_4", "prediction": ["O", "O", "O", "O", "O", "I-DI", "O"]}
+{"id": "2424525.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2424525.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "647288.tsv_0", "prediction": ["B-Drugform", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "I-DI", "O"]}
+{"id": "647288.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "647288.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O"]}
+{"id": "647288.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "B-Drugname", "O"]}
+{"id": "647288.tsv_4", "prediction": ["O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "647288.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "B-Drugname", "O", "O", "O", "I-ADR", "O", "O", "O"]}
+{"id": "647288.tsv_6", "prediction": ["O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O"]}
+{"id": "647288.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "647288.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O"]}
+{"id": "3263317.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "3263317.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_5", "prediction": ["O", "O", "O"]}
+{"id": "3263317.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-ADR", "B-Finding", "O", "B-DI", "O", "O", "I-ADR", "I-DI", "O", "O", "O", "B-DI", "O"]}
+{"id": "3263317.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_11", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_12", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_13", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_14", "prediction": ["B-DI", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_15", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_16", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O"]}
+{"id": "3263317.tsv_17", "prediction": ["O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "3263317.tsv_18", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugform", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "591905.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "591905.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "591905.tsv_2", "prediction": ["O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "591905.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "591905.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "591905.tsv_5", "prediction": ["B-Drugform", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "591905.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "591905.tsv_7", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2507228.tsv_0", "prediction": ["O", "O", "O", "O"]}
+{"id": "2507228.tsv_1", "prediction": ["O", "O", "B-DI", "O"]}
+{"id": "2507228.tsv_2", "prediction": ["O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2507228.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2507228.tsv_4", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2507228.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2507228.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2507228.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "2507228.tsv_8", "prediction": ["O", "O", "B-Drugform", "O", "O", "O"]}
+{"id": "2507228.tsv_9", "prediction": ["O", "O", "O", "O", "B-Drugname", "O", "O"]}
+{"id": "2507228.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2507228.tsv_11", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2507228.tsv_12", "prediction": ["O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "I-Drugname", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "I-Drugname", "B-Drugname", "O"]}
+{"id": "2507228.tsv_13", "prediction": ["O", "O", "O"]}
+{"id": "2507228.tsv_14", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_2", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_3", "prediction": ["O", "O", "O", "O", "I-ADR", "O", "O", "O", "O"]}
+{"id": "916205.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_6", "prediction": ["B-Drugclass", "O", "O", "B-Drugname", "O", "O", "O", "O"]}
+{"id": "916205.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_9", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O"]}
+{"id": "916205.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_12", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "916205.tsv_13", "prediction": ["O", "O", "O", "O"]}
+{"id": "916205.tsv_14", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "806166.tsv_0", "prediction": ["O", "O", "B-Drugname", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O"]}
+{"id": "806166.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "806166.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "806166.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "806166.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "806166.tsv_5", "prediction": ["O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "806166.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "806166.tsv_7", "prediction": ["O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2719942.tsv_0", "prediction": ["O", "O", "O"]}
+{"id": "2719942.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "811884.tsv_0", "prediction": ["O", "O", "O", "O", "B-DI", "O", "I-DI", "O", "O", "B-ADR", "I-ADR", "O"]}
+{"id": "811884.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O", "O", "O", "B-Drugname", "O", "O"]}
+{"id": "811884.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "811884.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "I-ADR", "O", "I-ADR", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "811884.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-Drugname", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "811884.tsv_5", "prediction": ["O", "O", "O", "O"]}
+{"id": "811884.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "B-Drugname", "O", "O", "O", "O", "B-Drugname", "I-Drugname", "O", "O", "I-Drugname", "O", "O", "O", "O"]}
+{"id": "811884.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "811884.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "894297.tsv_0", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O"]}
+{"id": "894297.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "B-ADR", "O", "I-ADR", "O", "O", "O", "O", "O"]}
+{"id": "894297.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "894297.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "894297.tsv_4", "prediction": ["O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "894297.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "894297.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "894297.tsv_7", "prediction": ["O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "894297.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "874652.tsv_0", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "874652.tsv_1", "prediction": ["O", "O", "O", "O", "B-DI", "O", "B-DI", "O", "B-DI", "O", "O", "O"]}
+{"id": "874652.tsv_2", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Finding", "O"]}
+{"id": "874652.tsv_3", "prediction": ["O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O"]}
+{"id": "874652.tsv_4", "prediction": ["O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "874652.tsv_5", "prediction": ["O", "O", "B-Drugform", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "874652.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "874652.tsv_7", "prediction": ["O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "874652.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_2", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_4", "prediction": ["O", "B-Drugform", "O", "O", "O", "B-Drugform", "O", "B-DI", "O", "O", "B-Drugname", "O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_5", "prediction": ["O", "O", "O"]}
+{"id": "610701.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "B-ADR", "O"]}
+{"id": "610701.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_8", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_9", "prediction": ["O", "O", "O", "O"]}
+{"id": "610701.tsv_10", "prediction": ["O", "O", "O", "O"]}
+{"id": "610701.tsv_11", "prediction": ["O", "O", "O", "B-Drugform", "O", "O", "O", "B-Drugform", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_12", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_13", "prediction": ["O", "O", "O"]}
+{"id": "610701.tsv_14", "prediction": ["O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "610701.tsv_15", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2658215.tsv_0", "prediction": ["O", "B-Drugname", "O", "O", "O", "O"]}
+{"id": "2658215.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O"]}
+{"id": "2658215.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "2658215.tsv_3", "prediction": ["O", "O", "O"]}
+{"id": "2658215.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2658215.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2658215.tsv_6", "prediction": ["O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2658215.tsv_7", "prediction": ["O", "O"]}
+{"id": "2658215.tsv_8", "prediction": ["O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2657172.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2657172.tsv_1", "prediction": ["O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2657172.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2657172.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O", "O"]}
+{"id": "2657172.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2657172.tsv_5", "prediction": ["O", "O", "O"]}
+{"id": "2657172.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1360123.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "1360123.tsv_1", "prediction": ["O", "O", "O", "O", "B-ADR", "I-ADR", "O", "B-ADR", "O", "O", "O", "I-ADR", "O", "O", "O", "B-ADR", "O"]}
+{"id": "1360123.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1360123.tsv_3", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "1360123.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1360123.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "1360123.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1360123.tsv_7", "prediction": ["O", "O"]}
+{"id": "1360123.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "801280.tsv_0", "prediction": ["B-Drugform", "O", "I-DI", "B-Drugname", "I-Drugname", "O", "I-Drugname", "I-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "801280.tsv_1", "prediction": ["O", "O", "O", "O", "O", "I-DI", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "801280.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "801280.tsv_3", "prediction": ["O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "801280.tsv_4", "prediction": ["O", "O", "O", "B-DI", "O", "O", "O", "O"]}
+{"id": "801280.tsv_5", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "801280.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "801280.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "801280.tsv_8", "prediction": ["O", "O", "O", "O"]}
+{"id": "801280.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "801280.tsv_10", "prediction": ["O", "O", "O", "O", "O", "B-Drugname", "O", "O"]}
+{"id": "2398170.tsv_0", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2398170.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2398170.tsv_2", "prediction": ["O", "O", "O", "B-DI", "O", "O", "O", "O", "B-Drugclass", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2398170.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2398170.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2547762.tsv_0", "prediction": ["O", "O", "O", "O"]}
+{"id": "2547762.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O"]}
+{"id": "2547762.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2547762.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2547762.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2547762.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O"]}
+{"id": "2547762.tsv_6", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O"]}
+{"id": "2547762.tsv_7", "prediction": ["O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O"]}
+{"id": "2547762.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O"]}
+{"id": "2547762.tsv_9", "prediction": ["O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2528491.tsv_0", "prediction": ["B-Drugform", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2528491.tsv_1", "prediction": ["O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2528491.tsv_2", "prediction": ["O", "O", "B-Drugclass", "O", "O", "I-DI", "I-DI", "O", "O", "O", "O", "O", "O"]}
+{"id": "2528491.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2528491.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O"]}
+{"id": "2528491.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2528491.tsv_6", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2528491.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2528491.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "907319.tsv_0", "prediction": ["O", "O", "O", "O", "B-Drugname", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "907319.tsv_1", "prediction": ["O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "907319.tsv_2", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "907319.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "907319.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "907319.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "907319.tsv_6", "prediction": ["O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "907319.tsv_7", "prediction": ["O", "B-Drugform", "O", "O", "O", "O", "O", "I-ADR", "O"]}
+{"id": "907319.tsv_8", "prediction": ["O", "O", "B-Drugform", "O", "O", "O"]}
+{"id": "907319.tsv_9", "prediction": ["B-Drugform", "O", "O", "O", "O"]}
+{"id": "907319.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "907319.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "907319.tsv_12", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2447728.tsv_0", "prediction": ["O", "B-Drugname", "O", "O", "O", "O", "O"]}
+{"id": "2447728.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2447728.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2394715.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2394715.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2394715.tsv_2", "prediction": ["O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2394715.tsv_3", "prediction": ["O", "O", "O"]}
+{"id": "2394715.tsv_4", "prediction": ["O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2394715.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-Finding", "O", "O", "O", "O"]}
+{"id": "2394715.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugclass", "B-Drugname", "O"]}
+{"id": "2394715.tsv_7", "prediction": ["O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2394715.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2394715.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_7", "prediction": ["O", "O", "B-Drugclass", "O", "B-DI", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "885404.tsv_9", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "905423.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "905423.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "905423.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "905423.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "905423.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "905423.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "905423.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O", "O"]}
+{"id": "1789376.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1789376.tsv_1", "prediction": ["O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O"]}
+{"id": "1789376.tsv_2", "prediction": ["O", "O", "B-Drugform", "O", "O", "O", "O", "O"]}
+{"id": "1789376.tsv_3", "prediction": ["O", "O", "O", "B-ADR", "O", "B-DI", "O", "O", "O", "O", "I-ADR", "O", "O", "O"]}
+{"id": "1789376.tsv_4", "prediction": ["O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "I-DI", "O", "I-ADR", "O", "O", "O", "B-DI", "O"]}
+{"id": "1789376.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1789376.tsv_6", "prediction": ["O", "O", "O", "O"]}
+{"id": "2551970.tsv_0", "prediction": ["O", "O", "O"]}
+{"id": "2551970.tsv_1", "prediction": ["O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O"]}
+{"id": "2551970.tsv_2", "prediction": ["B-Drugform", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2551970.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2551970.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "B-ADR", "O", "O", "B-DI", "O", "O", "O", "O"]}
+{"id": "2551970.tsv_5", "prediction": ["B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O"]}
+{"id": "2551970.tsv_6", "prediction": ["B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "264987.tsv_0", "prediction": ["O", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O"]}
+{"id": "264987.tsv_1", "prediction": ["O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "264987.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "I-DI", "I-ADR", "O", "O", "O", "O", "O", "O"]}
+{"id": "264987.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "264987.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "264987.tsv_5", "prediction": ["O", "O", "O", "O"]}
+{"id": "264987.tsv_6", "prediction": ["O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "264987.tsv_7", "prediction": ["B-ADR", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "264987.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "264987.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-ADR", "I-DI", "O"]}
+{"id": "264987.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "264987.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "264987.tsv_12", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2460834.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2460834.tsv_1", "prediction": ["O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "O"]}
+{"id": "2460834.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2460834.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2460834.tsv_4", "prediction": ["O", "O", "O", "I-DI", "O", "I-DI", "O"]}
+{"id": "2460834.tsv_5", "prediction": ["O", "I-ADR", "O", "O", "O", "O", "O", "B-ADR", "O", "I-DI", "O", "O", "O", "O"]}
+{"id": "2460834.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2460834.tsv_7", "prediction": ["O", "O", "O"]}
+{"id": "2460834.tsv_8", "prediction": ["O", "O", "O", "O"]}
+{"id": "2996879.tsv_0", "prediction": ["O", "O"]}
+{"id": "2996879.tsv_1", "prediction": ["O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-DI", "O", "O", "I-ADR", "O", "O", "O", "B-ADR", "I-ADR", "O", "O"]}
+{"id": "2996879.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "796835.tsv_0", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "796835.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "796835.tsv_2", "prediction": ["O", "O", "O", "O", "O", "B-Finding", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "796835.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O"]}
+{"id": "271739.tsv_0", "prediction": ["O", "O", "O", "O", "B-Drugform", "O", "O", "O", "B-DI", "O", "B-DI", "O", "O", "O"]}
+{"id": "271739.tsv_1", "prediction": ["O", "O", "O", "B-DI", "O", "O", "O", "O", "O"]}
+{"id": "271739.tsv_2", "prediction": ["O", "O", "O", "B-Drugform", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "271739.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "271739.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "271739.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O", "B-DI", "O", "I-DI", "O", "O", "O"]}
+{"id": "271739.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "271739.tsv_7", "prediction": ["O", "O", "O", "O"]}
+{"id": "271739.tsv_8", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "271739.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "271739.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "271739.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "271739.tsv_12", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "108315.tsv_0", "prediction": ["O", "O", "O", "I-DI", "I-DI", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O"]}
+{"id": "108315.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "108315.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "108315.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "B-ADR", "O"]}
+{"id": "108315.tsv_4", "prediction": ["O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "108315.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "B-ADR", "O", "O", "O"]}
+{"id": "108315.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "108315.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "108315.tsv_8", "prediction": ["O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ADR", "O", "I-ADR", "O"]}
+{"id": "108315.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "108315.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "B-Finding", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "I-ADR", "O"]}
+{"id": "24065.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_7", "prediction": ["O", "B-DI", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "24065.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1443820.tsv_0", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1443820.tsv_1", "prediction": ["O", "O", "B-DI", "O", "B-ADR", "O", "B-ADR", "I-ADR", "O", "B-ADR", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1443820.tsv_2", "prediction": ["O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O"]}
+{"id": "1443820.tsv_3", "prediction": ["O", "O"]}
+{"id": "1443820.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1443820.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1443820.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1443820.tsv_7", "prediction": ["O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O"]}
+{"id": "1443820.tsv_8", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "1443820.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "886201.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "886201.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "886201.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "886201.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O", "B-ADR", "I-ADR", "O", "I-ADR", "O", "I-ADR", "O", "O", "O", "B-DI", "I-DI", "O", "I-ADR", "O", "I-DI", "O", "O", "I-DI", "O"]}
+{"id": "886201.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "886201.tsv_5", "prediction": ["O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "886201.tsv_6", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "886201.tsv_7", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "886201.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "B-DI", "O"]}
+{"id": "886201.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "I-ADR", "O", "O", "O", "O", "O", "O"]}
+{"id": "886201.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O"]}
+{"id": "886201.tsv_11", "prediction": ["O", "O", "O", "O", "B-Drugform"]}
+{"id": "6993980.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "6993980.tsv_1", "prediction": ["O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "6993980.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugclass", "B-Drugform", "O"]}
+{"id": "6993980.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "6993980.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "6993980.tsv_5", "prediction": ["O", "O", "O", "O"]}
+{"id": "6993980.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "6993980.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "6993980.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "6993980.tsv_9", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O"]}
+{"id": "6993980.tsv_10", "prediction": ["O", "O", "O", "O", "O", "O", "O"]}
+{"id": "6993980.tsv_11", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "6993980.tsv_12", "prediction": ["O", "O", "O"]}
+{"id": "6993980.tsv_13", "prediction": ["O", "O", "O"]}
+{"id": "2489974.tsv_0", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O"]}
+{"id": "2489974.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2489974.tsv_2", "prediction": ["O", "O", "O", "O", "O"]}
+{"id": "2489974.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O"]}
+{"id": "2489974.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2489974.tsv_5", "prediction": ["O", "O", "O", "O"]}
+{"id": "2489974.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "I-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2489974.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Finding", "O", "O", "I-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O"]}
+{"id": "2489974.tsv_8", "prediction": ["O", "B-DI", "O", "O", "O", "O"]}
+{"id": "2489974.tsv_9", "prediction": ["O", "O", "O", "O", "O", "I-DI", "O"]}
+{"id": "2500754.tsv_0", "prediction": ["O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2500754.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2500754.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O"]}
+{"id": "2500754.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2500754.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "B-Drugclass", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2500754.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2500754.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2500754.tsv_7", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2500754.tsv_8", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2500754.tsv_9", "prediction": ["O", "O", "O", "O", "B-DI"]}
+{"id": "2537356.tsv_0", "prediction": ["O", "O", "O", "B-DI", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2537356.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2537356.tsv_2", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugform", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2537356.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "I-Drugname", "O"]}
+{"id": "2537356.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O"]}
+{"id": "2537356.tsv_5", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "2537356.tsv_6", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "B-Drugform", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "878817.tsv_0", "prediction": ["O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "B-DI", "O", "B-DI", "O"]}
+{"id": "878817.tsv_1", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "878817.tsv_2", "prediction": ["O", "O", "B-Drugname", "O", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"id": "878817.tsv_3", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-DI", "O", "O", "O", "O", "O"]}
+{"id": "878817.tsv_4", "prediction": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]}

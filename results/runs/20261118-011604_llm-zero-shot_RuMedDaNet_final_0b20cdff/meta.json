@@ -1,0 +1,40 @@
+{
+  "run_id": "20261118-011604_llm-zero-shot_RuMedDaNet_final_0b20cdff",
+  "approach": "llm-zero-shot",
+  "model": "gemma4:31b",
+  "params": {
+    "prompt_version": "v1",
+    "generation": {
+      "temperature": 0.0,
+      "reasoning": true,
+      "num_predict": 8192
+    },
+    "format_retries": 2,
+    "fallback": {
+      "RuMedNLI": "neutral",
+      "RuMedDaNet": "да",
+      "RuMedTest": 1
+    }
+  },
+  "config_hash": "0b20cdff677f61b14a43d03a89c4993e3e230169d3b6d49db051cd05816c9c39",
+  "task": "RuMedDaNet",
+  "role": "final",
+  "n_examples": 256,
+  "metrics": {
+    "acc": 98.828125
+  },
+  "invalid_rate": 0.0,
+  "usage": {
+    "input_tokens": 61570.0,
+    "output_tokens": 102433.0,
+    "requests": 256.0,
+    "cache_hits": 0.0,
+    "latency_s_mean": 1.5870650351446898,
+    "call_errors": 0.0
+  },
+  "code_commit": "0784c578f432e75b2e6f96f3b7380892c9add960-dirty",
+  "data_commit": "dd57f4f4f11aebe4fd18011b109d96b6d331a1bf",
+  "created_at": "2026-11-18T01:16:04+00:00",
+  "justification": null,
+  "notes": null
+}
